@@ -9,7 +9,6 @@ class Home extends React.Component {
     this.state = {
       isLoaded: false,
       isHovering: false,
-      
     };
   }
 
@@ -57,13 +56,16 @@ class Home extends React.Component {
                   Frontend Developer
                 </h1>
                 <p className="font-serif text-white text-base sm:text-lg leading-relaxed max-w-xl">
-                  Turning ideas into pixel-perfect reality — I’m a {"Vardhman Gadade"}
+                  Turning ideas into pixel-perfect reality — I’m{" "}
+                  <strong>Vardhman Gadade</strong>, a{" "}
                   <strong>Front-End Engineer</strong> who crafts interactive,
-                  high-performance user experiences using 
-                  <strong>  React</strong>,<strong>Angular</strong> <strong>JavaScript</strong>, and{" "}
+                  high-performance user experiences using{" "}
+                  <strong>React</strong>, <strong>Angular</strong>,{" "}
+                  <strong>JavaScript</strong>, and{" "}
                   <strong>modern UI frameworks</strong>. Whether it's building
                   clean UIs or optimizing for performance, I bring design to
-                  life through code that speaks. Trying To SowCase my Creativity In my Web-pages.
+                  life through code that speaks. Trying To Showcase my
+                  Creativity In my Web-pages.
                 </p>
               </div>
 
@@ -113,8 +115,8 @@ class Home extends React.Component {
                 where I feel at home. I enjoy designing systems that are
                 efficient, secure, and help everything run smoothly, even if
                 users never see them directly. It's like setting the mind of an
-                application  and Converting The Human language into small Bits— making sure it thinks clearly and responds
-                properly.
+                application and converting human language into bits — making
+                sure it thinks clearly and responds properly.
               </p>
             </div>
           </div>
