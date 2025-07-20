@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Code2, Github, Globe, User } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+// Import Heroicons
+import {
+  CodeBracketIcon,
+  UserCircleIcon,
+  GlobeAltIcon,
+  FolderOpenIcon,
+} from "@heroicons/react/24/outline";
 
 function WelcomeScreen({ onLoadingComplete }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -112,19 +119,19 @@ function WelcomeScreen({ onLoadingComplete }) {
               >
                 <div data-aos="fade-down" data-aos-delay="0">
                   <IconButton
-                    Icon={Code2}
+                    Icon={CodeBracketIcon}
                     link="https://leetcode.com/u/vvaardhhhhhhhhhh_03/"
                   />
                 </div>
                 <div data-aos="fade-down" data-aos-delay="200">
                   <IconButton
-                    Icon={User}
-                    link="https://www.linkedin.com/in/vard-gadade-06a680259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    Icon={UserCircleIcon}
+                    link="https://www.linkedin.com/in/vard-gadade-06a680259"
                   />
                 </div>
                 <div data-aos="fade-down" data-aos-delay="400">
                   <IconButton
-                    Icon={Github}
+                    Icon={FolderOpenIcon}
                     link="https://github.com/vardhgadade"
                   />
                 </div>
@@ -178,7 +185,7 @@ function WelcomeScreen({ onLoadingComplete }) {
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/20 to-purple-600/20 rounded-full blur-md group-hover:blur-lg transition-all duration-300" />
                   <div className="relative flex items-center gap-2 text-xl md:text-2xl">
-                    <Globe className="w-5 h-5 text-indigo-600" />
+                    <GlobeAltIcon className="w-5 h-5 text-indigo-600" />
                     <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                       {displayText}
                       <span className="animate-pulse">|</span>
