@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 💼 My Developer Portfolio (Built with React)
 Hi! I'm Vardhman, and this is my personal developer portfolio built using React.
 My best friend once told me, "A developer's portfolio shows their true dev stand" — so here I am, showcasing mine.
@@ -65,3 +66,7 @@ Email: vardhmangadade5@gmail.com.com
 LinkedIn: [https://www.linkedin.com/in/vard-gadade-06a680259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
 
 GitHub: [https://github.com/vardhgadade]
+=======
+# My-Portfilo
+My best friend once told me that a developer's portfolio reflects their skills — and here I am, trying to showcase mine.
+>>>>>>> f980b1a22a02dbc6ede0c7a3df08da9a965f81d6
