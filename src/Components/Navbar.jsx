@@ -64,20 +64,21 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+<DisclosurePanel className="sm:hidden">
+  <div className="space-y-1 px-2 pt-2 pb-3">
+    {navigation.map((item) => (
+      <DisclosureButton
+        key={item.name}
+        as={Link}
+        to={item.to}
+        className="block rounded-md px-3 py-2 text-lg text-white hover:text-yellow-400 font-display font-semibold"
+      >
+        {item.name}
+      </DisclosureButton>
+    ))}
+  </div>
+</DisclosurePanel>
 
-          <DisclosurePanel className="sm:hidden">
-            <div className="space-y-1 px-2 pt-2 pb-3">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.to}
-                  className="block rounded-md px-3 py-2 text-lg text-white hover:text-yellow-400 font-display font-semibold"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          </DisclosurePanel>
         </>
       )}
     </Disclosure>

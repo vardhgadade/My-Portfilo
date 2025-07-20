@@ -27,7 +27,7 @@ class Home extends React.Component {
       src: "https://lottie.host/58753882-bb6a-49f5-a2c0-950eda1e135a/NLbpVqGegK.lottie",
       loop: true,
       autoplay: true,
-      speed: 1,
+      speed: 3,
       style: { width: "100%", height: "100%" },
       className: `w-full h-full transition-all duration-500 ${
         isHovering
@@ -90,7 +90,7 @@ class Home extends React.Component {
             <div
               className="w-full lg:w-1/2 flex justify-center"
               data-aos="fade-right"
-              data-aos-delay="200"
+              data-aos-delay="100"
             >
               <img
                 src="/back.jpeg"
