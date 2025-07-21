@@ -38,7 +38,7 @@ bash
 Copy
 Edit
 npm start
-The app will run on http://localhost:3000.
+The app will run on https://my-portfilo-3far.vercel.app/.
 
 🖼️ Screenshots
 (Add 1–2 screenshots of your site here to showcase UI)
