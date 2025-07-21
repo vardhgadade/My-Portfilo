@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 💼 My Developer Portfolio (Built with React)
 Hi! I'm Vardhman, and this is my personal developer portfolio built using React.
 My best friend once told me, "A developer's portfolio shows their true dev stand" — so here I am, showcasing mine.
@@ -13,7 +13,7 @@ My best friend once told me, "A developer's portfolio shows their true dev stand
 📬 Contact Details
 
 ⚙️ Tech Stack
-Frontend: React, HTML, CSS, JavaScript
+Frontend: React,JavaScript.
 
 Styling: Tailwind CSS / Bootstrap (mention what you used)
 
@@ -44,21 +44,19 @@ The app will run on http://localhost:3000.
 (Add 1–2 screenshots of your site here to showcase UI)
 
 📁 Folder Structure
-java
-Copy
-Edit
+
 my-portfolio/
 ├── public/
 ├── src/
 │   ├── components/
 │   ├── pages/
-│   ├── assets/
+│   |
 │   └── App.jsx
 ├── package.json
 ├── README.md
 └── ...
 🌐 Live Demo
-Click here to view the live
+https://my-portfilo-3far.vercel.app/
 
 📬 Contact Me
 Email: vardhmangadade5@gmail.com.com
